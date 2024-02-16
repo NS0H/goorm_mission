@@ -11,6 +11,10 @@ body {
     flex-direction: column;
 }
 
+h1, h2 {
+    margin: 0.5rem;
+}
+
 button {
     padding: 10px;
     margin: 5px;
@@ -19,12 +23,13 @@ button {
     border-radius: 10px;
 
     font-family: "IBM Plex Sans KR", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     color: black;
     background-color: #fff;
 }
 
 button:hover {
-    color: brown;
+    color: #9b5de5;
+    border-color: #9b5de5;
     cursor: pointer;
 }
