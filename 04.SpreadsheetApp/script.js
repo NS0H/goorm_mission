@@ -39,9 +39,10 @@ exportBtn.onclick = function (e) {
     console.log('csvUrl', csvUrl);
 
     var sheetName = document.getElementById('sheetName').value;
-    if(sheetName === ''){
+    if(sheetName === '' || sheetName === null){
         sheetName = 'Spreadsheet File';
     }
+    console.log('sheetName', sheetName);
 
     const a = document.createElement("a");
     a.href = csvUrl;
