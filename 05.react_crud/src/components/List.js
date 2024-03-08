@@ -24,7 +24,7 @@ export default function List({ todoData, setTodoData }) {
     }
 
     const spanStyle = {
-      width: "40px",
+      minWidth: "80px",
     }
 
     // const getStyle = (completed) => { // 동적으로 변경할 때
